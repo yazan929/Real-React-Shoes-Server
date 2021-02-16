@@ -8,7 +8,7 @@ app.set('view engine', 'ejs')
 
 app.use('/api/', require('./routes/shoes'))
 app.get('/', (req, res)=> {
-    res.send('shoe chris cross')
+    res.send('bla bla bla')
 })
 
 
